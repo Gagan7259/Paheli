@@ -1,0 +1,187 @@
+.security {
+    background-color: #272B3A;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentt {
+    text-align: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sHead {
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ff8408;
+}
+
+.sdesc {
+    font-size: 35px;
+    margin: 0 0 18px;
+}
+
+.fImage {
+    width: 75px;
+    height: 75px;
+}
+
+.Sinfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12px;
+    margin: 0 0 90px;
+}
+
+.content {
+    padding-left: 20px;
+    text-align: start;
+}
+
+.Sinfo .content p {
+    font-size: 18px;
+}
+
+.read {
+    text-decoration: none;
+    color: #dae0f5;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutsetion {
+    margin-bottom: 5rem;
+}
+
+.security2 {
+    width: 472px;
+    height: 589px;
+    border-radius: 10px 0 10px 0;
+
+}
+
+.sr1 {
+    position: relative;
+}
+
+.sr2 {
+
+    width: 365px;
+    height: 497px;
+    position: relative;
+    background-color: #272b3a;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: -365px;
+    margin-right: 0;
+    margin-left: 11rem;
+}
+
+.security3 {
+    width: 365px;
+    height: 479px;
+    position: absolute;
+    border-radius: 0 10px 0 10px;
+
+}
+
+
+
+.about .title span {
+    color: #ff8408;
+    margin-bottom: 10px;
+    font-family: 'Franklin ', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.about .title h2 {
+    font-size: 35px;
+    color: #FFFFFF;
+    font-family: 'Franklin ', sans-serif;
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+
+.about .title p {
+    font-size: 16px;
+    color: #DAE0F5;
+    font-family: 'Franklin ', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 500;
+    line-height: 28px;
+    word-spacing: 8px;
+
+}
+
+.content-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 0 35px;
+}
+
+.icon {
+    background-color: #2E3241;
+    width: 100px;
+    height: 100px;
+    flex: 0 0 auto;
+    margin-right: 30px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 100%;
+}
+
+.cd-content h3 {
+    font-size: 20px;
+    font-family: 'Franklin ', sans-serif;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.cd-content p {
+    font-size: 18px;
+    font-family: 'Franklin ', sans-serif;
+    margin: 0 0 8px;
+    color: #DAE0F5;
+    margin-bottom: 15px;
+    line-height: 28px;
+
+}
+
+.aboutBtn {
+    padding: 13px 25px;
+    color: white;
+    background: linear-gradient(96deg, #6600fc, #fa3988 51.56%, #ff8408);
+    border-radius: 5px;
+    border: none;
+}
+
+.arrow {
+    font-size: 20px;
+}
+
+.aboutBtn span {
+    display: inline-block;
+    width: 29px;
+    color: rgba(0, 0, 0, 0.7);
+    height: 30px;
+    margin-right: 5px;
+    background-color: rgb(240, 229, 229);
+    border-radius: 100%;
+}

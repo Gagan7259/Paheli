@@ -1,0 +1,76 @@
+.subserviceSection {
+    background-color: #272B3A;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.srContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 15px;
+}
+
+.sRHead {
+    text-align: center;
+}
+
+.sRHead span {
+    display: block;
+    color: #ff8408;
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.sRHead h3 {
+    font-size: 35px;
+    color: #FFFFFF;
+    margin: 0 0 10px;
+    font-family: 'Franklin ', sans-serif;
+}
+
+.subservice-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subserviceCard {
+    padding: 25px;
+
+
+}
+
+.subserviec-content {
+    display: block;
+    width: 320px;
+    height: 332px;
+    background-color: #2E3241;
+    padding: 25px;
+    margin: 0 0 25px;
+    border-radius: 0 10px 0 10px;
+}
+
+.icoon {
+    margin: 0 0 25px;
+}
+
+.subserviceCard .subserviec-content h3 a {
+    color: #FFFFFF !important;
+    font-size: 18px;
+}
+
+.subserviceCard .subserviec-content p {
+    font-size: 16px;
+    font-family: 'Franklin ', sans-serif;
+    margin: 0 0 15px;
+}
+
+.subserviceCard .subserviec-content a {
+    color: #FFFFFF;
+}

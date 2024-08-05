@@ -1,0 +1,122 @@
+.faqsection {
+    background-color: #272B3A !important;
+    color: white;
+}
+
+.faqsection .faqcontainer {
+    padding-top: 40px;
+    background-color: #272B3A !important;
+
+
+}
+
+.faqacc {
+    margin: 20px 0;
+
+}
+
+.faqsection-content span {
+    display: block;
+    color: #FF8408;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Franklin ', sans-serif;
+    margin: 0 0 10px;
+}
+
+.faqsection-content h2 {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Franklin ', sans-serif;
+    margin: 0 0 20px;
+}
+
+.faqsection-content p {
+    font-size: 16px;
+    color: #DAe0f5;
+    font-weight: 700;
+    font-family: 'Franklin ', sans-serif;
+    margin: 0 0 20px;
+}
+
+.faqsection-content h3 {
+    font-family: 'Franklin ', sans-serif;
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-weight: 700;
+}
+
+.faqicon {
+    padding: 20px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 35px 0;
+    position: relative;
+    z-index: 1;
+    margin-left: 19px;
+}
+
+.faqicon::before {
+    content: '';
+    position: absolute;
+    background-color: #2E3241;
+    width: 80px;
+    height: 80px;
+    z-index: -1;
+    border-radius: 100%;
+    margin-left: -30px;
+
+}
+
+.faqShape {
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+.accr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    border-top: 2px solid rgb(82, 74, 74)
+}
+
+.accr h6 {
+    color: #DAe0f5;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+
+.ans {
+    color: #DAe0f5;
+    font-size: 16px;
+    font-family: 'Franklin ', sans-serif;
+    padding-bottom: 15px;
+}
+
+.carddiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.carddiv h2 {
+    font-size: 40px;
+    font-family: 'Franklin ', sans-serif;
+    font-weight: bolder;
+}
+
+.counter {
+    margin-left: 10px;
+}
+
+.desc {
+    padding: 0;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 28px;
+    letter-spacing: -.32px;
+}

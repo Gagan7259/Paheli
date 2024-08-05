@@ -1,0 +1,121 @@
+.home {
+    color: white;
+    position: relative;
+    background-color: #292d3c;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.hero {
+    width: 546px;
+    height: 445px;
+}
+
+.head-text {
+    font-size: 55px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 0 18px;
+}
+
+.headpara {
+    color: #dae0f5;
+    font-size: 16px;
+    font-family: 'Franklin', sans-serif;
+    line-height: 28px;
+    letter-spacing: 0.32px;
+    margin-bottom: 15px;
+
+}
+
+.btn-section {
+    display: flex;
+    align-items: center !important;
+}
+
+.btnn a {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    border: 2px solid;
+    border-image: linear-gradient(96deg, #6600fc, #fa3988 51.56%, #ff8408) 1;
+}
+
+
+
+
+.btn-section a::before {
+    top: 23%;
+    left: -16px;
+    width: 13px;
+    height: 13px;
+    content: "";
+    position: absolute;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: #ff8408;
+
+}
+
+
+
+.btn-section a::after {
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    content: "";
+    z-index: -1;
+    position: absolute;
+
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 20px;
+}
+
+.intro p {
+    position: relative;
+    z-index: 1;
+}
+
+.intro p::before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    top: 3px;
+    left: 6px;
+    border-radius: 100%;
+    z-index: -11;
+}
+
+.intro p:hover::before {
+    background-color: #6600fc;
+    transition: all 1s;
+
+}
+
+.intro p:hover .playbtn {
+    transition: all 1s;
+    color: white;
+}
+
+.playbtn-span {
+    margin-left: 15px;
+}
+
+.playbtn {
+    color: #6600fc;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 15px;
+}

@@ -1,0 +1,26 @@
+.carosel-section {
+    background-color: #292D3C;
+    color: white;
+    padding: 20px 10px;
+}
+
+
+
+.logo-area {
+    padding: 20px 10px;
+}
+
+* {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.logo-area .slick-slide img,
+.logo-area .slick-slide img:focus,
+.logo-area .slick-slide img:active,
+.logo-area .slick-slide img:hover {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}

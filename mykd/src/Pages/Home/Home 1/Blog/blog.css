@@ -1,0 +1,85 @@
+.blog-area {
+    background-color: #292D3C;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin ';
+}
+
+ul li {
+    list-style: none;
+}
+
+.blog-title span {
+    display: block;
+    color: #FF8408;
+    font-size: 1rem;
+    font-family: 'libre Franklin ', sans-serif;
+    margin-bottom: 10px;
+}
+
+.blog-title h2 {
+    font-size: 35px;
+    font-family: 'Franklin ', sans-serif;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.single-blog-card {
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+
+.blog-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-image {
+    padding: 15px;
+    border: 1px solid rgb(100, 70, 70);
+}
+
+.blog-image a img {
+    width: 322px;
+    height: 206px;
+    border-radius: 0 27px 0 27px;
+}
+
+.blog-content {
+    text-align: start;
+}
+
+.list-unstyled li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 25px;
+
+}
+
+.blog-content h3 {
+    color: #FFFFFF;
+    font-size: 29px;
+    font-weight: 600;
+    font-family: 'Franklin ', 'Arial Narrow', Arial, sans-serif;
+}
+
+.blog-content h3:hover {
+    color: #6600FC;
+}
+
+.blog-content a {
+    color: #DAE0F5;
+    text-decoration: none;
+}
+
+.blogico {
+    margin-right: 10px;
+    color: #FF8408;
+}
+
+.list-unstyled li a {
+    color: #DAE0F5;
+    font-size: 1.16rem;
+    text-decoration: none;
+}

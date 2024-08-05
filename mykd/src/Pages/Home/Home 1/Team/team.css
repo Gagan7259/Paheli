@@ -1,0 +1,95 @@
+.team {
+    background-color: #292d3c;
+    color: white;
+}
+
+.team-content {
+    text-align: center;
+
+}
+
+.team-content span {
+    display: block;
+    color: #FF8408;
+    font-size: 16px;
+    font-family: 'Franklin ', sans-serif;
+    margin-bottom: 10px;
+}
+
+.team-content h2 {
+    font-size: 35px;
+    font-weight: 600;
+    font-family: 'Franklin ', sans-serif;
+    margin-bottom: 20px;
+
+}
+
+.teamimg {
+    width: 261px;
+    height: 329px;
+}
+
+.cardss {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.single-card {
+    position: relative;
+}
+
+.single-card a img {
+    border-radius: 0 10px 0 10px;
+}
+
+.teamnames {
+    text-align: start;
+    margin: 50px 0;
+}
+
+
+
+
+.social-icon :hover {
+    color: #9A6159;
+}
+
+
+.social-icon {
+    font-size: 23px;
+    color: black;
+    margin-top: 27px;
+    position: relative;
+
+}
+
+.social-list {
+    position: absolute;
+    margin-top: -25rem;
+    margin-top: -500px;
+}
+
+.social-list ul li {
+    list-style: none;
+    position: relative;
+
+
+}
+
+
+.social-list ul li::before {
+    content: '';
+    background-color: white;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    top: 35%;
+    left: -40%;
+    border-radius: 100%;
+}
+
+.social-list ul li {
+    color: #CA3F84;
+}

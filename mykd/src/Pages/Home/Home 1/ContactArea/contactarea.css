@@ -1,0 +1,199 @@
+.contact-area {
+    background-color: #1b2336;
+    color: white;
+}
+
+.contact-info {
+    position: relative;
+}
+
+.contact-info1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.contact-info1::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #32394a;
+    bottom: 0;
+}
+
+
+.single-contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.single-contact-info .contactall .icon1 {
+    width: 80px;
+    height: 80px;
+    flex: 0 0 auto;
+    line-height: 80px;
+    margin-right: 25px;
+    border-radius: 100%;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+}
+
+.callico {
+    font-size: 25px;
+    color: #6600FC;
+}
+
+.contactiinfo h3 {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Franklin ', sans-serif;
+    margin-bottom: 8px;
+}
+
+.contactiinfo a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.sociallicons ul li {
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 30px 10px;
+
+}
+
+.sociallicons ul li a {
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+
+    transition: transform 0.5s ease;
+
+}
+
+.sociallicons {
+    position: relative;
+}
+
+.sociallicons::before {
+    content: '';
+    position: absolute;
+    background-color: rgb(36, 44, 62);
+    width: 1px;
+    height: 100%;
+    top: 0;
+}
+
+
+
+.sociallicons ul li a:hover {
+    animation: hoverEffect 0.5s ease;
+
+}
+
+
+
+@keyframes hoverEffect {
+    0% {
+        transform: translateY(0);
+
+    }
+
+    50% {
+        transform: translateY(-20px);
+        /* Adjust this value for how high you want the icon to go */
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.contact-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.contact-submit::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(36, 44, 62);
+    width: 1px;
+    height: 165px;
+    left: -2rem;
+}
+
+.contact-submit h3 {
+    max-width: 86px;
+    font-size: 16px;
+    line-height: 1.6;
+    padding-right: 10px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form-control {
+    width: 400px;
+    height: 75px;
+    border: unset;
+    border-radius: 5px;
+    padding-left: 20px;
+    color: #6f7480;
+    background-color: #32394a;
+    position: relative;
+}
+
+.submitbtn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    top: 15%;
+    right: 10%;
+    width: 140px;
+    height: 50px;
+    border: none;
+    color: rgb(9, 9, 9);
+    background: linear-gradient(96deg, #6600fc, #fa3988 51.56%, #ff8408);
+    border-radius: 5px;
+}
+
+.submitbtn span {
+    display: block;
+    align-items: center;
+    font-size: 22px;
+    padding-right: 12px;
+    z-index: 1;
+    position: relative;
+}
+
+.submitbtn span::before {
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    z-index: -1;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: -6px;
+}

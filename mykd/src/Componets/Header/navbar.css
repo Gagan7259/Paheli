@@ -1,0 +1,50 @@
+.bg-body-tertiary {
+    background-color: #272B3A !important;
+}
+
+
+
+.header-conntent {
+    padding: 20px 0px;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.lists {
+    margin-left: 50px;
+}
+
+.linkss,
+#navbarScrollingDropdown {
+    margin: 0 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.linkss:hover,
+#navbarScrollingDropdown:hover {
+    color: rgba(13, 110, 253, 0.4);
+}
+
+.searchbar {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    border: 1px solid rgb(62, 60, 60);
+}
+
+.search-icon {
+    color: white;
+    font-size: 23px;
+    margin-top: 13px;
+
+}
+
+.searchbar:hover {
+    border: 1px solid rgb(209, 204, 204);
+}
